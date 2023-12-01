@@ -10,7 +10,7 @@ const USER_CONFIG = {
     "APP_ID": "wx7f51a01ab1e13c77",
     "APP_SECRET": "5e4d5a5aa9d2fc619611febb7194b842",
     "IS_SHOW_COLOR": false,
-    "CALLBACK_TEMPLATE_ID": "PKO-bNWbIyl4-nvottZ6LJjKr8mamNULIxCF42jmikE",
+    "CALLBACK_TEMPLATE_ID": "0B113vwXYIxPTF4HPgBVMteClTkcynvmvzWrnZivQ6Y",
     "CALLBACK_USERS": [
         {
             "name": "自己",
