@@ -39,6 +39,28 @@ const USER_CONFIG = {
               // 在一起的日子
                 { keyword: 'love_day', date: '2014-01-14' },
             ]
+        },
+        {
+            "name": "宝子",
+            "id": "ostKU6rVWKJSqRpK01iIUB7fBrbg",
+            "useTemplateId": "WLbSIdf77a6m5i6kekQ9917_z2trrJJVQLycjnTlO_w",
+            "province": "山东",
+            "city": "乳山",
+            "horoscopeDate": "10-27",
+            "horoscopeDateType": "今日",
+            //"openUrl": "www.baidu.com",
+            "festivals": [
+                {
+                    "type": "*生日",
+                    "name": "宝子",
+                    "date": "10-27",
+                    "year": "1994"
+                },    
+            ],
+            "customizedDateList": [
+              // 在一起的日子
+                { keyword: 'love_day', date: '2014-01-14' },
+            ]
         }
     ],
  TIAN_API: {
