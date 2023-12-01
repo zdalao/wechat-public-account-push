@@ -21,7 +21,7 @@ const USER_CONFIG = {
         {
             "name": "宝子",
             "id": "ostKU6hgy-SFd8XBAIXBN7Z79Z8Y",
-            "useTemplateId": "K8x1oI6h_LJopeURAdW4LVmn9KOZzca5jtKTcV8MPp0",
+            "useTemplateId": "C-l4Uq1fvvWRl5VLtov9RDt08Bz4q7BiblY1e2RkGXA",
             "province": "山东",
             "city": "乳山",
             "horoscopeDate": "10-27",
@@ -47,7 +47,7 @@ const USER_CONFIG = {
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: true,
+    morningGreeting: false,
   
     // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     eveningGreeting: false,
@@ -66,7 +66,7 @@ const USER_CONFIG = {
         "holidaytts": true,
         "CIBA": false,
         "oneTalk": true,
-        "earthyLoveWords": false,
+        "earthyLoveWords": true,
         "momentCopyrighting": false,
         "poisonChickenSoup": false,
         "poetry": false,
