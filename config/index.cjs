@@ -21,7 +21,7 @@ const USER_CONFIG = {
         {
             "name": "宝子",
             "id": "ostKU6hgy-SFd8XBAIXBN7Z79Z8Y",
-            "useTemplateId": "AM0QiE6gjx4vNcKoIJ19P9620RJcnr7h27DD_GCoyRs",
+            "useTemplateId": "QeSZie85RVEOY4ifEOP-vrbBWqcvk6nF6XnK5r45nmU",
             "province": "山东",
             "city": "乳山",
             "horoscopeDate": "10-27",
@@ -56,7 +56,7 @@ const USER_CONFIG = {
     weather: 1,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 10,
+    networkHot: 0,
   
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
     networkHotType: 'title',
