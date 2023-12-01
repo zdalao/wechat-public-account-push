@@ -43,7 +43,7 @@ const USER_CONFIG = {
     ],
     "SWITCH": {
         "weather": true,
-        "holidaytts": false,
+        "holidaytts": true,
         "CIBA": false,
         "oneTalk": true,
         "earthyLoveWords": false,
