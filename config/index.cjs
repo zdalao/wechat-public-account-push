@@ -65,7 +65,7 @@ const USER_CONFIG = {
         "weather": false,
         "holidaytts": true,
         "CIBA": false,
-        "oneTalk": false,
+        "oneTalk": true,
         "earthyLoveWords": false,
         "momentCopyrighting": false,
         "poisonChickenSoup": false,
