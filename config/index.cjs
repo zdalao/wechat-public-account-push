@@ -21,28 +21,29 @@ const USER_CONFIG = {
         {
             "name": "宝子",
             "id": "ostKU6hgy-SFd8XBAIXBN7Z79Z8Y",
-            "useTemplateId": "IrQhRZWIfHY1TDa6E0fIVTH7vkPFcf0zomQ2bR3WHrU",
+            "useTemplateId": "Qoo1srty9vFMokheSk_BOgcHagjwD8aplrrWGSmJ3OE",
             "province": "山东",
             "city": "乳山",
             "horoscopeDate": "10-27",
             "horoscopeDateType": "今日",
-            "openUrl": "www.baidu.com",
+            //"openUrl": "www.baidu.com",
             "festivals": [
                 {
                     "type": "*生日",
                     "name": "宝子",
                     "date": "10-27",
                     "year": "1994"
-                }
+                },    
             ],
             "customizedDateList": [
-              
+              // 在一起的日子
+                { keyword: 'love_day', date: '2014-01-14' },
             ]
         }
     ],
     "SWITCH": {
         "weather": true,
-        "holidaytts": true,
+        "holidaytts": false,
         "CIBA": false,
         "oneTalk": true,
         "earthyLoveWords": false,
@@ -50,7 +51,9 @@ const USER_CONFIG = {
         "poisonChickenSoup": false,
         "poetry": false,
         "horoscope": true,
-        "birthdayMessage": true
+        "birthdayMessage": true,
+        "courseSchedule": false
+
     }
 }
 
