@@ -14,7 +14,7 @@ const USER_CONFIG = {
     "CALLBACK_USERS": [
         {
             "name": "自己",
-            "id": "ostKU6hgy-SFd8XBAIXBN7Z79Z8Y\t"
+            "id": "ostKU6hgy-SFd8XBAIXBN7Z79Z8Y"
         }
     ],
     "USERS": [
