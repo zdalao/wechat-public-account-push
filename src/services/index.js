@@ -893,11 +893,30 @@ export const getAggregatedData = async () => {
     }].filter((it) => it.value)
 
     // 天行-天气
-    const tianApiWeather = (await getTianApiWeather(user) || []).map((it, index) => Object.keys((it)).filter((weatherKey) => ['province', 'area', 'weatherimg'].indexOf(weatherKey) === -1).map((key) => ({
+    const tianApiWeather = (await getTianApiWeather(user) || []).map(
+        (it, index) => Object.keys((it))
+            .filter((weatherKey) => ['province', 'area', 'weatherimg'].indexOf(weatherKey) === -1)
+            .map((key) => ({
       name: toLowerLine(`tianApiWeather_${key}_${index}`),
       value: it[key],
       color: getColor(),
     }))).flat()
+    // 从tianApiWeather中获取key为tian_api_weather_tips_0的value
+    const tianApiWeatherTips = tianApiWeather.find(item => item.name === 'tian_api_weather_tips_0').value;
+    const wxContent = []
+    for (let j = 0, i = 0; j < tianApiWeatherTips.length; j += 20) {
+      wxContent.push({
+        name: `tian_api_weather_tips_0_${i}`,
+        value: content.slice(j, j + 20),
+        color: getColor()
+      })
+      i++
+    }
+    //把wxContent里的数据放到tianApiWeather里
+    tianApiWeather.push(...wxContent);
+
+
+
 
     // 天行-热榜
     const tianApiNetworkHot = [{
