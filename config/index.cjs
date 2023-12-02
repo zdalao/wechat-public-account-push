@@ -21,7 +21,7 @@ const USER_CONFIG = {
         {
             "name": "宝子",
             "id": "ostKU6hgy-SFd8XBAIXBN7Z79Z8Y",
-            "useTemplateId": "WLbSIdf77a6m5i6kekQ9917_z2trrJJVQLycjnTlO_w",
+            "useTemplateId": "UtNNYsc62fv553irFxDLPGGoF7oKK9D6nsO8zXKfNoE",
             "province": "山东",
             "city": "乳山",
             "horoscopeDate": "10-27",
@@ -43,7 +43,7 @@ const USER_CONFIG = {
         {
             "name": "宝子",
             "id": "ostKU6rVWKJSqRpK01iIUB7fBrbg",
-            "useTemplateId": "WLbSIdf77a6m5i6kekQ9917_z2trrJJVQLycjnTlO_w",
+            "useTemplateId": "UtNNYsc62fv553irFxDLPGGoF7oKK9D6nsO8zXKfNoE",
             "province": "山东",
             "city": "乳山",
             "horoscopeDate": "10-27",
