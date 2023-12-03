@@ -21,7 +21,7 @@ const USER_CONFIG = {
         {
             "name": "宝子",
             "id": "ostKU6hgy-SFd8XBAIXBN7Z79Z8Y",
-            "useTemplateId": "UtNNYsc62fv553irFxDLPGGoF7oKK9D6nsO8zXKfNoE",
+            "useTemplateId": "byahA4Rs_A7l_AfAM4WGumQ_FgYWEUvq_EKAWF4aD7Y",
             "province": "山东",
             "city": "乳山",
             "horoscopeDate": "10-27",
@@ -39,8 +39,8 @@ const USER_CONFIG = {
               // 在一起的日子
                 { keyword: 'love_day', date: '2014-01-14' },
             ]
-        },
-        {
+        }
+/*        {
             "name": "宝子",
             "id": "ostKU6rVWKJSqRpK01iIUB7fBrbg",
             "useTemplateId": "UtNNYsc62fv553irFxDLPGGoF7oKK9D6nsO8zXKfNoE",
@@ -61,7 +61,7 @@ const USER_CONFIG = {
               // 在一起的日子
                 { keyword: 'love_day', date: '2014-01-14' },
             ]
-        }
+        }*/
     ],
  TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项

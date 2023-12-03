@@ -907,8 +907,8 @@ export const getAggregatedData = async () => {
     for (let j = 0, i = 0; j < tianApiWeatherTips.length; j += 20) {
       wxContent.push({
         name: `tian_api_weather_tips_0_${i}`,
-        value: content.slice(j, j + 20),
-        color: getColor()
+        color: getColor(),
+        value: tianApiWeatherTips.slice(j, j + 20)
       })
       i++
     }
@@ -921,7 +921,7 @@ export const getAggregatedData = async () => {
     // 天行-热榜
     const tianApiNetworkHot = [{
       name: toLowerLine('tianApiNetworkHot'),
-      value: await getTianApiNetworkHot(config.TIAN_API && config.TIAN_API.networkHotType),
+      value: await  (config.TIAN_API && config.TIAN_API.networkHotType),
       color: getColor(),
     }]
     // 集成所需信息
@@ -1332,3 +1332,5 @@ export const sendMessageReply = async (users, templateId = null, params = null, 
     failPostIds: failPostIds.length ? failPostIds.join(',') : '无',
   }
 }
+
+getAggregatedData()
