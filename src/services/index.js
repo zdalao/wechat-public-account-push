@@ -1333,4 +1333,4 @@ export const sendMessageReply = async (users, templateId = null, params = null, 
   }
 }
 
-getAggregatedData()
+// getAggregatedData()
