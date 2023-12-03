@@ -21,7 +21,7 @@ const USER_CONFIG = {
         {
             "name": "宝子",
             "id": "ostKU6hgy-SFd8XBAIXBN7Z79Z8Y",
-            "useTemplateId": "Z0ya70KaOvTKOralS0ZOAJH1XFlZv0ij0Oiz1R_LLko",
+            "useTemplateId": "ECWyqjQWykDuS1dnVykdTLIt-ZqJN9kSIlBxKtfNuH4",
             "province": "山东",
             "city": "乳山",
             "horoscopeDate": "10-27",
